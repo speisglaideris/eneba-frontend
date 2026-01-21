@@ -44,6 +44,7 @@ yarn-error.log*
 .vscode/
 .idea/
 .DS_Store
+.vite/
 
 # eslint cache
 .eslintcache
