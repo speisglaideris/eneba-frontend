@@ -3,6 +3,10 @@
     {
       "source": "/api/:path*",
       "destination": "https://simas-eneba-backend.infinityfree.me/api/:path*"
+    },
+    {
+      "source": "/aes.js",
+      "destination": "https://simas-eneba-backend.infinityfree.me/aes.js"
     }
   ]
 }
