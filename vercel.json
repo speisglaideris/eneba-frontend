@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://simas-eneba-backend.infinityfree.me/api/:path*"
+    }
+  ]
+}
