@@ -254,7 +254,7 @@ body {
 
 .cashback-banner {
   position: absolute;
-  top: 290px;
+  top: 280px;
 
   transition: top 300ms ease-in-out;
 }
@@ -349,6 +349,7 @@ body {
 .discount-box {
   color: #b3aac9;
   position: relative;
+  margin-bottom: 5px;
 }
 
 .discount-value {
@@ -371,6 +372,7 @@ body {
   align-items: center;
   gap: 5px;
   margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .new-price {
@@ -524,7 +526,7 @@ body {
 }
 
 .product-shell:hover .cashback-banner{
-  top: 160px;
+  top: 150px;
 }
 
 .product-shell:hover .main-banner {
