@@ -162,7 +162,7 @@ function ProductCard({ product }) {
                     <div className="discount-box">
                       <span className="discount-title">From:</span>
                       <span className="discount-value">
-                        {product.price.toFixed(2)}€
+                        €{product.price.toFixed(2)}
                       </span>
                       <span className="discount-percentage">
                         -{product.discount}%
@@ -170,7 +170,7 @@ function ProductCard({ product }) {
                     </div>
                     <div className="price-box">
                       <span className="new-price">
-                        {newPrice.toFixed(2)}€
+                        €{newPrice.toFixed(2)}
                       </span>
                       <PriceInfoTooltip />
                     </div>
@@ -182,7 +182,7 @@ function ProductCard({ product }) {
                     </div>
                     <div className="price-box">
                       <span className="new-price">
-                        {product.price.toFixed(2)}€
+                        €{product.price.toFixed(2)}
                       </span>
                       <PriceInfoTooltip />
                     </div>
@@ -191,7 +191,7 @@ function ProductCard({ product }) {
               </div>
             </div>
             <div className="cashback-value">
-              <span>Cashback: +{cashback.toFixed(2)}€</span>
+              <span>Cashback: +€{cashback.toFixed(2)}</span>
             </div>
             <WishCountTooltip count={product.likes || 0} />
 
